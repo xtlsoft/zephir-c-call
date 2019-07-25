@@ -15,14 +15,7 @@ class CIncludeOptimizer extends OptimizerAbstract
         if (count($expression['parameters']) !== 1) {
             throw new CompilerException("'c_runf' requires 1 parameter", $expression);
         }
-
-        try {
-            throw new \Exception("h");
-        } catch (\Exception $e) {
-            die(var_dump(
-                $e->getTraceAsString()
-            ));
-        }
+        
         /**
          * Process the expected symbol to be returned
          */
