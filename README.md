@@ -53,7 +53,7 @@ except values, all types and func_names should be literals.
 c_runf(
     string ret_type, string expr,
     [string arg1, [string arg2, [string arg3...
-)
+);
 ```
 
 ret_type and expr must be literals.
