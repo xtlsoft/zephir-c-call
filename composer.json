@@ -1,0 +1,18 @@
+{
+    "name": "xtlsoft/zephir-c-call",
+    "description": "An extension that allows you to call C functions in Zephir.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Tianle Xu",
+        "email": "xtl@xtlsoft.top"
+    }],
+    "require": {
+        "phalcon/zephir": "^0.12.0"
+    },
+    "autoload": {
+        "files": [
+            "./src/bootstrap.php"
+        ]
+    }
+}
